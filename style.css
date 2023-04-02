@@ -54,3 +54,36 @@ nav #brand a:hover {
   align-items: center;
   justify-content: center;
 }
+
+
+/*--------------- footer section --------------- */
+
+/* footer.footer {
+  height: 10;
+  width: 100%;
+  background-color: #8693ab;
+}
+
+p.copyright {
+  color: #212227;
+  line-height: 40px;
+  font-size: 0.7em;
+} */
+
+footer {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background-color: #8693ab;
+}
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  color: #212227;
+  line-height: 15px;
+  font-size: 0.7em;
+  text-align: center;
+  font-weight: bold;
+  bottom:0;
+}
