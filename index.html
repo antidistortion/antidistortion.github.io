@@ -1,143 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <meta name="author" content="harrnish" /> -->
 
-    <title>anti distortion</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="anti distortion" content="antidistortion" />
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+  <title>anti distortion</title>
 
-    <!-- bootstrap cdns -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
-      rel="stylesheet"
-    />
+  <!-- bootstrap cdns -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <!-- terminal effect -->
-    <script src="t.min.js"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+    rel="stylesheet" />
 
-    <!-- for on scroll animations -->
-    <link rel="stylesheet" href="animate.css" />
-    <script src="wow.min.js"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <!--------------- navbar starts here --------------->
-      <nav>
-        <span id="brand">
-          <a href="index.html">anti distortion</a>
-        </span>
-      </nav>
 
-      <!--------------- navbar ends here --------------->
+  <!-- for on scroll animations -->
+  <link rel="stylesheet" href="animate.css" />
+  <script src="wow.min.js"></script>
+</head>
 
-      <!--------------- hero section starts here --------------->
-      <div class="hero">
-        <div class="header">
-          <h1 class="line anim-typewriter">i code music.</h1>
-        </div>
+<body>
+
+  <div class="wrapper">
+    <!--------------- navbar starts here --------------->
+    <nav>
+      <span id="brand">
+        <a href="index.html">anti distortion</a>
+      </span>
+    </nav>
+
+    <!--------------- navbar ends here --------------->
+
+    <!--------------- hero section  --------------->
+    <div class="hero">
+      <div class="header">
+        <p class="wow fadeInUp">
+          licence artworks:
+          <span><a href="https://artgrab.co/art/antidistortion" style="color: #8693ab">art grab</a></span>
+        </p>
+        <p class="wow fadeInUp">
+          spotify playlist:
+          <span><a href="https://open.spotify.com/playlist/5HyF9qkNRy0sJvmxrLbEmW?si=24fe53cad3aa4e4f"
+              style="color: #8693ab">doom</a></span>
+        </p>
+        <p class="wow fadeInUp">
+          social:
+          <span><a href="https://instagram.com/antidistortion" style="color: #8693ab">ig</a></span>
+          <span><a href="https://twitter.com/antidistortionn" style="color: #8693ab">tw</a></span>
+        </p>
       </div>
-
-      <div class="scroll-down"></div>
-      <!--------------- hero section ends here --------------->
-
-      <!--------------- projects section starts here --------------->
-      <div class="container-fluid">
-
-        <h6>new track</h6>
-      <br />
-          <div
-            class="project project1 wow fadeInUp"
-            onclick="location.href='https://spotify.com'"
-          ></div>
-        </div>
-      </div>
-          <br />
-      <!--------------- projects section ends here --------------->
-
-      <!--------------- footer starts here --------------->
-      <div class="footer">
-        <div class="container">
-
-          <div class="spotify">
-            <div class="row">
-              <div class="col-lg-12">
-                <p class="wow fadeInUp">
-                  spotify playlist:
-                  <span
-                    ><a href="https://spotify.com" style="color: #8693ab"
-                      >doom</a
-                    ></span
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="hr">
-          </div>
-
-          <br /><br />
-
-          <div class="info">
-              <div class="" id="media">
-                <p class="wow fadeInUp" data-wow-delay="0s">social</p>
-
-                <ul>
-                  <li id="sc" class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://soundcloud.com/antidistortion" style="color: #8693ab;">sc</a> </li>
-                  <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://instagram.com/antidistortion" style="color: #8693ab;">ig</a></li>
-                  <li id="yt" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://youtube.com/antidistortion" style="color: #8693ab;">yt</a></li>
-                  <li id="tw" class="wow fadeInUp" data-wow-delay="1s"><a href="https://twitter.com/antidistortionn" style="color: #8693ab;">tw</a></li>
-                </ul>
-
-                <br /><br />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--------------- footer ends here --------------->
-
     </div>
-
-    <!-- greensock cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-
-      TweenMax.from("#brand", 1, {
-        delay: 0.4,
-        y: 10,
-        opacity: 0,
-        ease: Expo.easeInOut,
-      });
-
-      TweenMax.staggerFrom(
-        "#menu li a",
-        1,
-        {
-          delay: 0.4,
-          opacity: 0,
-          ease: Expo.easeInOut,
-        },
-        0.1
-      );
+  </div>
 
 
-      new WOW().init();
-    </script>
-  </body>
+
+
+
+
+
+
+  <!-- greensock cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+
+    TweenMax.from("#brand", 1, {
+      delay: 0.4,
+      y: 10,
+      opacity: 0,
+      ease: Expo.easeInOut,
+    });
+
+
+
+    new WOW().init();
+  </script>
+</body>
+
 </html>
